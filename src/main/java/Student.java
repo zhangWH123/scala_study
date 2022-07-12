@@ -7,7 +7,7 @@
 public class Student {
     private String name;
     private int age;
-    public static String location = "双汇";
+    public static String location = "双汇1111";
 
     public void printMessage(){
         System.out.println(this.name + " " + this.age + " " + Student.location);
