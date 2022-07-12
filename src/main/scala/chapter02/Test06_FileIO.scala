@@ -22,6 +22,7 @@ object Test06_FileIO {
     write.write("This is a test file from javaIO!")
     write.write("Master commit!")
     write.write("Hot fix commit!")
+    write.write("push test1!")
     write.close()
   }
 }
