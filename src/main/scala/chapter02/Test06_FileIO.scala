@@ -18,7 +18,8 @@ object Test06_FileIO {
     //文件输出，依靠JavaIo
     val write = new PrintWriter(new File("src/main/resources/Test06_FileOutput.txt"))
     write.write("This is a test file from javaIO!")
-    write.write("This is a test file from javaIO!1111")
+    write.write("This is a test file from javaIO!  Hot fix")
+    write.write("This is a test file from javaIO!")
     write.close()
   }
 }
