@@ -23,6 +23,7 @@ object Test06_FileIO {
     write.write("Master commit!")
     write.write("Hot fix commit!")
     write.write("push test1!")
+    write.write("push test22222222222!")
     write.close()
   }
 }
