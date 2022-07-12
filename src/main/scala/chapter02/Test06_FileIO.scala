@@ -20,6 +20,7 @@ object Test06_FileIO {
     write.write("This is a test file from javaIO!")
     write.write("This is a test file from javaIO!  Hot fix")
     write.write("This is a test file from javaIO!")
+    write.write("Hot fix commit!")
     write.close()
   }
 }
